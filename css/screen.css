@@ -1,0 +1,85 @@
+body{
+  background-image: url(../images/img5.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#content{
+  padding-top: 3.0rem;
+  /* padding-left: 12.0rem; */
+}
+
+#page-header {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgba(17, 68, 179, 0.699);
+  font-family: 'Mynerve', 'cursive', monospace;
+  font-weight: bold;
+  
+}
+
+#sub-text{
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif, monospace;
+  padding: 1.0rem;
+
+}
+
+form {
+  margin: 0 auto;
+  width: 25rem;
+  padding: 1.25rem;
+  border: 0.3125rem solid rgb(16, 15, 15);
+  border-radius: 1.25rem;
+  background-color: lavenderblush;
+  font-family: 'Comfortaa', cursive;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+    margin: 0.4rem 0;
+    font-family: 'Tilt Neon', sans-serif, monospace;
+}
+
+#tester_platform{
+  margin: 0.4rem 0;
+  font-family: 'Comfortaa', cursive;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+select{
+  font-family: 'Tilt Neon', sans-serif, monospace;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#tester_submit{
+  text-align: center;
+  padding: 1.0rem;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: larger;
+  border-radius:0.3125rem;
+}
+  
+  /* Media queries when the screen gets larger */
+  @media screen and (min-width: 480px) {
+    
+  }
+
+    /* Media queries when the screen gets even larger */
+  @media screen and (min-width: 800px) {
+    
+  }
+  
+  

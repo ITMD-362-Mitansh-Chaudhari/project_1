@@ -8,13 +8,17 @@
     <link rel="stylesheet" media="screen" href="css/screen.css">
     <script async src="js/site.js"></script>
     <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Tilt+Neon&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <main id = "content">
-      <form id = "signup-form" method = "get" action = "#null">
-        <h1>GTA 6 Beta Tester Sign-up Form</h1>
-        <p>Join our Beta Tester list to get early access to GTA 6!</p>
+      <form id = "signup-form" method = "get" action = "javascript:void(0);">
+        <h1 id = "page-header">GTA 6 Beta Tester Sign-up Form</h1>
+        <p id ="sub-text">Join our Beta Tester list to get early access to GTA 6!</p>
         <div id = "tester_name">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" placeholder="Enter your name" required />
@@ -41,11 +45,15 @@
         </div>
 
         <div id = "tester_submit">
-          <p id="age-error" class="error-message"></p>
           <button type="submit" id="submit-btn" >Sign up</button>
         </div>
       </form>
     </main>
+    
+    <!-- <div id = "gta_img">
+      <img src="images/img1.png" alt="photo1">
+    </div> -->
+
   </body>
 
 </html>
