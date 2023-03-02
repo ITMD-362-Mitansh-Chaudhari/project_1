@@ -11,8 +11,8 @@ Project Goals:
 
 Deliverables & Milestones
  1. First Deliverable: Create a Basecamp post describing your work in progress. Title the post with your name and project number
-  - The URL to your GitHub repository, and the URL to your Github Pages live link
-  - Screen shot of your html and css validations
+    - The URL to your GitHub repository, and the URL to your Github Pages live link
+    - Screen shot of your html and css validations
 
 
 
