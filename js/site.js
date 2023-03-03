@@ -12,8 +12,8 @@ form.addEventListener('submit', (event) => {
     return;
   }
  else{
-    form.submit();
     alert("Great Job!! You have successfully joined the tester list.");
     return;
+    form.submit();
 }
 });
