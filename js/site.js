@@ -6,14 +6,18 @@ form.addEventListener('submit', (event) => {
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
   const ageInput = document.getElementById('age');
+  const platformInput = document.getElementById('tester_platform');
 
   if (ageInput.value < 17) {
     alert('Sorry, you must be at least 17 years old to join the beta tester list.');
     return;
   }
  else{
-    alert("Great Job!! You have successfully joined the tester list.");
-    return;
-    form.submit();
+  form.submit();
+  alert("Great Job!! You have successfully joined the tester list.");
+  nameInput.value = "";
+  emailInput.value = "";
+  ageInput.value = "";
+  platformInput.value = ""
 }
 });
