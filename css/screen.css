@@ -30,6 +30,9 @@ form {
   border-radius: 1.25rem;
   background-color: lightblue;
   font-family: 'Comfortaa', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 input[type="email"],
@@ -42,29 +45,26 @@ input[type="number"] {
     border: none;
     border-radius: 0.25rem;
     background-color: #f2f2f2;
+    align-self: center; 
 }
 
-#tester_platform{
+select{
   margin: 0.4rem 0;
-  font-family: 'Comfortaa', cursive;
-  margin-right: 0.625rem;
-  margin-bottom: 10px;
+  font-family: 'Tilt Neon', sans-serif, monospace;
   width: 90%;
   padding: 0.5rem;
   border: none;
   border-radius: 0.25rem;
   background-color: #f2f2f2;
-}
-
-select{
-  font-family: 'Tilt Neon', sans-serif, monospace;
-  background-color: lightgoldenrodyellow;
+  align-self: center; 
 }
 
 label {
   font-weight: bold;
   margin-right: 0.625rem;
   margin-bottom: 0.625rem;
+  display: flex;
+  align-items: center;
 }
 
 #tester_submit{
@@ -84,6 +84,7 @@ input[type="submit"] {
   font-size: small;
   border-radius:0.3125rem;
   transition: all 0.2s ease-in-out;
+  align-self: center;
 }
 input[type="submit"]:hover {
   background-color: darkcyan;
