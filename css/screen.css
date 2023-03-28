@@ -92,9 +92,10 @@ input[type="submit"]:hover {
 }
   
   /* Media queries when the screen gets larger */
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 400px) {
     body{
-      background-image: url(../images/img5.png);
+      background-image: url(../images/img3.png);
+      background-size: cover;
       background-size: 40em 46em;
     }
     #page-header {
@@ -110,6 +111,7 @@ input[type="submit"]:hover {
       padding: 1.2rem;
       border: 0.3125rem solid rgb(16, 15, 15);
       border-radius: 1.25rem;
+      background-color: lightgray;
     }
     input[type="submit"] {
       font-size: medium; 
@@ -118,7 +120,7 @@ input[type="submit"]:hover {
     /* Media queries when the screen gets even larger */
   @media screen and (min-width: 720px) {
     body{
-      background-image: url(../images/img5.png);
+      background-image: url(../images/img1.png);
       background-size: cover;
       height: 52em;
     }
@@ -138,8 +140,8 @@ input[type="submit"]:hover {
     }
     label {
       font-weight: bold;
-      margin-right: 0.1rem;
-      margin-bottom: 0.1rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
     }
     input[type="submit"] {
       font-size: large; 
