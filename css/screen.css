@@ -143,12 +143,18 @@ input[type="submit"]:hover {
       font-weight: bold;
       margin-right: 0.5rem;
       margin-bottom: 0.5rem;
-      color: darkorange
+      color: darkorange;
     }
     
     input[type="submit"] {
       font-size: large; 
+      background-color: lightblue;
     }
+    input[type="email"],
+    input[type="text"],
+    input[type="number"] {
+    background-color: lightblue;
+  }
   
   }
   
