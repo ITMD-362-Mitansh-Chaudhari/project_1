@@ -124,6 +124,9 @@ input[type="submit"]:hover {
       background-size: cover;
       height: 52em;
     }
+    #sub-text{
+      color: darkgoldenrod;
+    }
     #page-header {
       font-size: 1.7rem;
     }
@@ -148,11 +151,14 @@ input[type="submit"]:hover {
     
     input[type="submit"] {
       font-size: large; 
-      background-color: lightblue;
+      background-color: darkorange;
     }
     input[type="email"],
     input[type="text"],
     input[type="number"] {
+    background-color: lightblue;
+  }
+   select{
     background-color: lightblue;
   }
   
