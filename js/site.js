@@ -1,7 +1,8 @@
-const form = document.querySelector('#signup-form');
+// const form = document.querySelector('#signup-form');
+const submitButton = document.querySelector('#signup-form');
 const ageInput = document.querySelector('#age');
 
-form.addEventListener('submit', (event) => {
+submitButton.addEventListener('submit', (event) => {
   event.preventDefault();
   const nameInput = document.getElementById('name');
   const emailInput = document.getElementById('email');
@@ -13,11 +14,12 @@ form.addEventListener('submit', (event) => {
     return;
   }
  else{
-  form.submit();
+  document.getElementById("submit-btn").click();
   alert("Great Job!! You have successfully joined the tester list.");
   nameInput.value = "";
   emailInput.value = "";
   ageInput.value = "";
-  platformInput.value = ""
+  platformInput.value = "";
+  form.submit();
 }
 });
