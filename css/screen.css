@@ -37,6 +37,11 @@ input[type="text"],
 input[type="number"] {
     margin: 0.4rem 0;
     font-family: 'Tilt Neon', sans-serif, monospace;
+    width: 90%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f2f2f2;
 }
 
 #tester_platform{
@@ -44,10 +49,16 @@ input[type="number"] {
   font-family: 'Comfortaa', cursive;
   margin-right: 0.625rem;
   margin-bottom: 10px;
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #f2f2f2;
 }
 
 select{
   font-family: 'Tilt Neon', sans-serif, monospace;
+  background-color: lightgoldenrodyellow;
 }
 
 label {
@@ -59,14 +70,24 @@ label {
 #tester_submit{
   text-align: center;
   padding: 1.0rem;
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #f2f2f2;
 }
 
-button[type="submit"] {
+input[type="submit"] {
   cursor: pointer;
   background-color: aquamarine;
   font-weight: bold;
-  font-size: larger;
+  font-size: small;
   border-radius:0.3125rem;
+  transition: all 0.2s ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: darkcyan;
+  transform: scale(1.1);
 }
   
   /* Media queries when the screen gets larger */
@@ -88,6 +109,9 @@ button[type="submit"] {
       padding: 1.2rem;
       border: 0.3125rem solid rgb(16, 15, 15);
       border-radius: 1.25rem;
+    }
+    input[type="submit"] {
+      font-size: medium; 
     }
   }
     /* Media queries when the screen gets even larger */
@@ -115,6 +139,9 @@ button[type="submit"] {
       font-weight: bold;
       margin-right: 0.1rem;
       margin-bottom: 0.1rem;
+    }
+    input[type="submit"] {
+      font-size: large; 
     }
   
   }
