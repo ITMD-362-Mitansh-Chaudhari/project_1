@@ -25,9 +25,9 @@ body{
 form {
   margin: 0 auto;
   width: 14rem;
-  padding: 1.0rem;
+  padding: 2.0rem;
   border: 0.3125rem solid rgb(16, 15, 15);
-  border-radius: 1.25rem;
+  border-radius: 0.25rem;
   background-color: lightblue;
   font-family: 'Comfortaa', cursive;
   display: flex;
